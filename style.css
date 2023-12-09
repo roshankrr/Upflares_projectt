@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border - box;
+    color: white;
+    font-family: "montserrat";
+  }
+  
+  html  {
+    height: 100%;
+    width: 100;
+  }
+  #main{
+    height: 100%;
+    width: 100%;
+  }
+  
+  #cursor {
+    height:25px;
+    width: 25px;
+    border-radius: 50%;
+    position: fixed;
+    background-color: rgb(5, 5, 5);
+    mix-blend-mode: difference;
+    z-index:100;
+    pointer-events: none;
+  }
+  
+  /* #curso {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    position:fixed;
+    background-color: #c9bb1e4d;
+    filter: blur(60px);
+    z-index: 9;
+    pointer-events: none    ;
+  
+  
+  }   */
+  #nav {
+    height: 120px;
+    width: 100%;
+    margin-left: 75vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    padding: 0 90px;
+    gap: 30px;
+    position: fixed;
+    z-index: 98;
+    /* pointer-events: none; */
+  }
+  #nav h4{
+    cursor: pointer;
+    color: white;
+  }
+  img{
+    position: absolute;
+    cursor: pointer;
+    z-index: 99;
+  }
+  
+  video{
+    height: 100%;
+    width: 100%;
+  }
+  a{
+    text-decoration: none;
+  }
+
+#hero{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#text{
+    height: inherit;
+    width: inherit;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  h1{
+    position: absolute;
+    color: whitesmoke;
+    font-size: 5rem;
+    font-weight: 800;
+    transition: 1s;
+    font-family: 'Anklepants';
+  }
+  h1:hover{
+    transition: 1s;
+    transform: translateY(2vh);
+  }
+  
